@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{%block content%}
+
+<div class="container">
+    <h3 class="text-center text-danger">لا تفوت عروض اليوم الوطني </h3>
+    <div class="text-center">
+        تسوّق الآن واغتنم فرصة الحصول على خصم 20% على جميع أنواع القهوة!
+    </div>
+    
+    <div class="row text-center d-flex justify-content-center mt-5">
+        
+        <div class="col-sm-3 mb-5">
+            <a href="{% url 'listitemsC' %}" class="custom-link">
+                <div class="card border border-dagnger">
+                    <div class="card-body ">
+                        <i class="bi bi-cup-hot" style="font-size: 60px; color: rgb(94, 62, 62);"></i>
+                        <h4>محاصيل القهوه</h4>
+                    </div>
+                </div>
+            </a>
+            
+            
+        </div>
+
+
+
+
+        <div class="col-sm-3 mb-5">
+            
+            <a href="{% url 'listitems' %}" class="custom-link">
+                <div class="card border border-dangner">
+                    <div class="card-body">
+                        <i class="bi bi-cup" style="font-size: 60px; color: rgb(94, 62, 62);"></i>
+                        <h4>الأكواب</h4>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+        
+
+
+
+
+
+
+        <div class="col-sm-3 mb-5">
+            <a href="{% url 'listitemsM' %}" class="custom-link">
+                <div class="card border border-dagnger">
+                    <div class="card-body ">
+                        <i class="bi bi-cup" style="font-size: 60px; color: rgb(94, 62, 62);"></i>
+                        <h4>آلالات القهوه</h4>
+                    </div>
+                </div>
+            </a>
+
+            
+        </div>
+    </div>
+</div>
+
+{%endblock content%}

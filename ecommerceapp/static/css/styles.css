@@ -1,0 +1,42 @@
+.custom-link {
+    text-decoration: none; /* إزالة التسطير */
+    color: black; /* لون النص الافتراضي */
+}
+
+.custom-link:hover {
+    color: #998168; /* لون النص عند المرور عليه */
+}
+
+
+.para {
+    white-space: pre-line; /* يحافظ على الفراغات والأسطر */
+    word-wrap: break-word; /* يقوم بلف الكلمات الطويلة */
+    overflow-wrap: break-word; /* يكسر الكلمات الطويلة لتتناسب مع العرض */
+}
+.custom-link {
+    text-decoration: none; /* إزالة التسطير */
+    color: black; /* لون النص الافتراضي */
+    display: block; /* التأكد من أن الرابط يشغل مساحة كاملة حول النص */
+}
+
+.custom-link:hover {
+    color: #998168; /* لون النص عند المرور عليه */
+}
+
+.card {
+    transition: color 0.3s ease; /* إضافة تأثير الانتقال لتغيير اللون */
+}
+
+.card:hover .card-body i,
+.card:hover .card-body h4 {
+    color: #998168; /* تغيير لون الأيقونة والنص عند مرور الفأرة فوق البطاقة */
+}
+
+.para {
+    white-space: pre-line; /* يحافظ على الفراغات والأسطر */
+    word-wrap: break-word; /* يقوم بلف الكلمات الطويلة */
+    overflow-wrap: break-word; /* يكسر الكلمات الطويلة لتتناسب مع العرض */
+}
+main {
+    padding-bottom: 20px; /* إضافة مسافة من أسفل العنصر */
+}
